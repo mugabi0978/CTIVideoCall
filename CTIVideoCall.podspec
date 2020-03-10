@@ -8,16 +8,16 @@ Pod::Spec.new do |s|
 
 On the Android and iOS mobile platforms, when you try to set a listener (Android) or delegate (iOS), it is not normally possible to set multiple listeners or delegates for the same event. For example, on these mobile platforms you can only set one OpenTok signal listener. The Common Accelerator Session Pack, however, allows you to set up several listeners for the same event."
 
-  s.homepage         = "https://github.com/opentok/accelerator-core-ios"
+  s.homepage         = "https://github.com/mugabi0978/CTIVideoCall"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Lucas Huang" => "lucas@tokbox.com" }
-  s.source           = { :git => "https://github.com/opentok/accelerator-core-ios.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/mugabi0978/CTIVideoCall.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/tokbox'
 
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
-  s.source_files = 'OTAcceleratorCore/**/*.{h,m}'
+  s.source_files = 'CTIVideoCall/**/*.{h,m}'
 
   # s.resource_bundles = {
   # 	'OTAcceleratorCoreBundle' => ['OTAcceleratorCoreBundle/**/*']

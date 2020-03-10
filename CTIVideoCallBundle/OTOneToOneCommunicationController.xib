@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -31,7 +28,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ewS-NA-etg">
-                    <rect key="frame" x="85" y="581" width="206" height="66"/>
+                    <rect key="frame" x="84.5" y="581" width="206" height="66"/>
                     <subviews>
                         <button opaque="NO" alpha="0.5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sP-qd-hwq" userLabel="publisherVideoButton">
                             <rect key="frame" x="8" y="8" width="50" height="50"/>
@@ -84,7 +81,7 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UC0-3U-ii1" userLabel="subscriberAudioButton">
-                    <rect key="frame" x="20" y="60" width="25" height="25"/>
+                    <rect key="frame" x="20" y="60" width="50" height="50"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="UC0-3U-ii1" secondAttribute="height" multiplier="1:1" id="154-hW-lN9"/>
                     </constraints>
@@ -94,7 +91,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7M-EH-cae" userLabel="subscriberVideoButton">
-                    <rect key="frame" x="20" y="105" width="24" height="24"/>
+                    <rect key="frame" x="20" y="130" width="48" height="48"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="V7M-EH-cae" secondAttribute="height" multiplier="1:1" id="G1I-IW-Gyc"/>
                     </constraints>
@@ -104,7 +101,7 @@
                     </connections>
                 </button>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6F-Bv-lXV" userLabel="publisherCameraButton">
-                    <rect key="frame" x="325" y="60" width="30" height="21"/>
+                    <rect key="frame" x="325" y="60" width="30" height="21.5"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="z6F-Bv-lXV" secondAttribute="height" multiplier="55:39" id="NnK-Un-2ip"/>
                         <constraint firstAttribute="width" constant="30" id="RS6-Lj-1sv"/>
@@ -142,13 +139,14 @@
                 <outlet property="subscriberVideoButton" destination="V7M-EH-cae" id="px9-MW-5fo"/>
                 <outlet property="subscriberView" destination="Wnp-x6-gBI" id="hCE-GR-Dn0"/>
             </connections>
+            <point key="canvasLocation" x="140" y="117"/>
         </view>
     </objects>
     <resources>
-        <image name="audio" width="24" height="25"/>
+        <image name="audio" width="24.5" height="25"/>
         <image name="mic" width="21" height="26"/>
         <image name="reverse cameras" width="55" height="39"/>
-        <image name="startCall" width="15" height="30"/>
+        <image name="startCall" width="15.5" height="30"/>
         <image name="video" width="24" height="14"/>
     </resources>
 </document>
